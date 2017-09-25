@@ -11,9 +11,10 @@ de arquivos ou serviços, mas agora com novas estruturas e
 arquiteturas, que ficou conhecido como Nuvem.
 
 Para atender a estes diversos tipos de dispositivos citados acima
-que acessam os mesmos recursos surge o conceito de Serviços. O que
-se propõe é tornar o servidor e o cliente independentes, para que seja possível
-ter acesso aos mesmos recursos do servidor de vários clientes
+que acessam aos mesmos recursos surge o conceito de Serviços. O que
+se propõe é tornar o servidor e o cliente independentes
+\textemdash\xspace no sentido de existir um _back-end_ e diferentes _front-ends_,
+para que seja possível ter acesso aos mesmos recursos do servidor de vários clientes
 diferentes.
 
 # Definição
@@ -33,7 +34,7 @@ Em 2016, o _Facebook_ publica em formato _Open Source_ o GraphQL, definido
 como uma _query language_ (linguagem de consulta) para _API_'s. Permite
 que o cliente obtenha os dados de forma declarativa e hierarquica \cite{graphql:2016}.
 É um formato que adapta-se a qualquer banco de dados ou mecanismo de
-armazenamento, ou seja, é possível usá-lo para busca de arquivos em um
+armazenamento, ou seja, é possível, por exemplo, usá-lo para busca de arquivos em um
 sistema de arquivos remoto. Possui 3 tipos de operações básicas: _Query_
 para obtenção de dados; _Mutation_ para alteração de dados;
 e _Subscriptions_ para notificação em tempo real.
